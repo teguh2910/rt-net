@@ -6,6 +6,9 @@
     <meta name="description" content="RT 03 - Sistem Manajemen Digital Modern untuk Rukun Tetangga">
     <title>RT 03 - Sistem Manajemen Digital Terpadu</title>
     
+    <!-- PWA Meta Tags -->
+    @include('partials.pwa-meta')
+    
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.bunny.net">
     <link href="https://fonts.bunny.net/css?family=plus-jakarta-sans:300,400,500,600,700,800&display=swap" rel="stylesheet">
@@ -658,6 +661,9 @@
             observer.observe(card);
         });
     </script>
+
+    <!-- PWA Install Button -->
+    @include('partials.pwa-install-button')
 
 </body>
 </html>
